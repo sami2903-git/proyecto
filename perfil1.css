@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Threads</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+ <div id="profile-view" class="view">
+                <div class="profile-card">
+                    <img src="https://i.pravatar.cc/150?img=68" alt="Mi Foto de Perfil" class="profile-pic">
+                    <h2 class="profile-username">@mi_usuario</h2>
+                    <p class="profile-bio">Desarrollador web y amante del café. ☕ Creando código y magia.</p>
+                    <div class="profile-stats">
+                        <a href="#" id="followers-link">15 seguidores</a>
+                        <span class="separator">·</span>
+                        <a href="#">0 siguiendo</a>
+                    </div>
+                    <div id="followers-list" class="followers-list">
+                        <h3>Seguidores</h3>
+                        <div class="follower-item">
+                            <img src="https://i.pravatar.cc/150?img=32" alt="Seguidor" class="follower-avatar">
+                            <span>amigo_fiel</span>
+                        </div>
+                        <div class="follower-item">
+                            <img src="https://i.pravatar.cc/150?img=47" alt="Seguidor" class="follower-avatar">
+                            <span>dev_chic</span>
+                        </div>
+                        <div class="follower-item">
+                            <img src="https://i.pravatar.cc/150?img=60" alt="Seguidor" class="follower-avatar">
+                            <span>gato_internet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>

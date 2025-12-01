@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Botones</title>
+    <!-- Enlace a Font Awesome para los iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+            background-color: #000;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Espacio entre los botones */
+        }
+        h2 { border-bottom: 1px solid #333; padding-bottom: 10px; }
+
+        /* Opción 3: Estilo "Threads" */
+        .btn-volver-threads {
+            display: inline-flex;
+            align-items: center;
+            padding: 10px 15px;
+            background-color: transparent;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 15px;
+            font-weight: 500;
+            transition: background-color 0.2s ease;
+        }
+        .btn-volver-threads:hover { background-color: #181818; }
+        .btn-volver-threads i { margin-right: 8px; }
+
+    </style>
+</head>
+<body>
+
+    
+    <h2>Opción 3: Estilo "Threads"</h2>
+    <a href="javascript:history.back()" class="btn-volver-threads">
+        <i class="fa-solid fa-arrow-left"></i> Volver
+    </a>
+
+</body>
+</html>
